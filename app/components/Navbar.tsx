@@ -8,34 +8,28 @@ interface Props {}
 
 const Navbar: FC<Props> = ({}) => {
   return (
-    <div className={styles.navbarContainer}>
-      <Image
-        src={collabyLogo}
-        alt='The logo image'
-        width={100}
-        height={100}
-        priority
-      />
+    <div className={styles.outerContainer}>
+      <span>Collaby</span>
       <Link
-        className={styles.link}
+        className={styles.firstItemContainer}
         href='/'
       >
         Product
       </Link>
       <Link
-        className={styles.link}
+        className={styles.secondItemContainer}
         href='/team'
       >
         Team
       </Link>
       <Link
-        className={styles.link}
+        className={styles.thirdItemContainer}
         href='/blog'
       >
         Blog
       </Link>
       <Link
-        className={styles.link}
+        className={styles.fourthItemContainer}
         href='/careers'
       >
         Careers

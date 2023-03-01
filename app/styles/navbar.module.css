@@ -1,11 +1,45 @@
-.navbarContainer {
+.outerContainer {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: cyan;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
-.link {
+.itemContainer {
+  width: 7.5vw;
+  padding: 10px;
   margin-left: 20px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: none;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.firstItemContainer,
+.secondItemContainer,
+.thirdItemContainer,
+.fourthItemContainer {
+  composes: itemContainer;
+}
+
+.firstItemContainer:hover {
+  background-color: #f45d01;
+}
+
+.secondItemContainer:hover {
+  background-color: #97cc04;
+}
+
+.thirdItemContainer:hover {
+  background-color: #fdc90d;
+}
+
+.fourthItemContainer:hover {
+  background-color: #2d7dd2;
 }

@@ -1,0 +1,15 @@
+.outerContainer {
+  width: 100vw;
+  background-color: red;
+}
+
+.bgImage {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('https://blog.fmb.mx/hubfs/blog/blog-frecuencia.jpg');
+  background-size: cover;
+}

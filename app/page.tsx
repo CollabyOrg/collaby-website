@@ -2,8 +2,8 @@ import { FC } from 'react';
 
 interface Props {}
 
-const MainPage: FC<Props> = ({}) => {
-  return <div>MainPage</div>;
+const ProductPage: FC<Props> = ({}) => {
+  return <div>ProductPage</div>;
 };
 
-export default MainPage;
+export default ProductPage;

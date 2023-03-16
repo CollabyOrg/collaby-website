@@ -13,3 +13,12 @@
   background-image: url('https://blog.fmb.mx/hubfs/blog/blog-frecuencia.jpg');
   background-size: cover;
 }
+
+.countryCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  background-color: greenyellow;
+}

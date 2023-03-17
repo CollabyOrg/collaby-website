@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+> The [privacy policy of the app](https://collabyorg.github.io/collaby-website/app-privacy-policy.html) is temporally hosted with GitHub pages.
+
 ## Getting Started
 
 First, run the development server:
